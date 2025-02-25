@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calisthenics Equipment</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  </head>
+  <body>
+    <header id="header">
+      <img
+        id="header-img"
+        src="images/logo.png"
+        alt="Calisthenics Equipment Logo"
+      />
+      <div class="logo-header"><i class="fa-solid fa-bars"></i></div>
+      <div class="right">
+        <nav id="nav-bar">
+          <a href="#home" class="nav-link">Home</a>
+          <div class="w3-dropdown-hover">
+            <button class="w3-button">Products</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+              <a href="#parallettes" class="w3-bar-item w3-button" class="nav-link">Parallettes</a>
+              <a href="#pull-ups" class="w3-bar-item w3-button" class="nav-link">Pull Up Bars</a>
+              <a href="#weighted-vests" class="w3-bar-item w3-button" class="nav-link">Weighted Vests</a>
+            </div>
+          </div>
+          <a href="#footer" class="nav-link">Footer</a> 
+        </nav>
+    </header>
+
+    <section class="headline" id="home">
+      <div class="headline-content">
+        <h1>Unlock Your Potential with Calisthenics</h1>
+        <p class="w3-monospace">Your fitness journey starts here.</p>
+        <a href="#parallettes" class="btn">Shop Now</a>
+      </div>
+    </section>
+
+    <main class="products">
+      <section class="item" id="parallettes">
+        <h2>Parallettes</h2>
+        <p class="w3-monospace">Enhance your calisthenics training with our premium parallettes.</p>
+        <img
+          class="product-image"
+          src="images/parallettesbar.jpg"
+          alt="parallettes bar"
+        />
+      </section>
+      
+      <section>
+        <div class="vid">
+          <iframe
+          id="video"
+          width="100%"
+          height="250px"
+          src="https://www.youtube.com/embed/IOA8-wxtLH0"
+          >
+          </iframe>
+        </div>
+      </section>
+
+      <section class="item" id="pull-ups">
+        <h2>Pull Up Bars</h2>
+        <p class="w3-monospace">
+          Achieve your fitness goals with our sturdy multi-grip pull up bars.
+        </p>
+        <img
+          class="product-image"
+          src="images/pullupbar.jpg"
+          alt="pullup bar"
+        />
+      </section>
+
+      <section class="item" id="weighted-vests">
+        <h2>Weighted Vests</h2>
+        <p class="w3-monospace">Increase workout intensity with our adjustable weighted vests.</p>
+        <img
+          class="product-image"
+          src="images/weightedvest.jpg"
+          alt="weighted vest"
+        />
+      </section>
+
+      <section class="mail">
+        <h2>Subscribe for Updates</h2>
+        <form id="form" method="get">
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input type="submit" id="submit" value="Subscribe" />
+        </form>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>&copy; 2025 Calisthenics Equipment</p>
+    </footer>
+  </body>
+</html>
