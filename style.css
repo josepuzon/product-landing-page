@@ -144,6 +144,12 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+#info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 footer {
     margin-top: 5%;
     height: auto;
